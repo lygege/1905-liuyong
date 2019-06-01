@@ -1,0 +1,164 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #e9eaed;
+}
+
+.headerBox1, .headerBox2 a:hover {
+    color: #00c1de;
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: black;
+    margin-top: 0;
+}
+
+.headerBox {
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.headerBox1 {
+    /*width: 155px;*/
+    height: 100%;
+    line-height: 60px;
+    float: left;
+    margin-right: 80px;
+}
+.headerBox1  > h2 >a{
+    line-height: 60px;
+    color: #e4e3e3;
+}
+
+.headerBox2 {
+    /*width: 155px;*/
+    height: 100%;
+    float: left;
+    line-height: 60px;
+}
+
+.headerBox2 a {
+    margin-right: 40px;
+    float: left;
+    font-size: 16px;
+    line-height: 60px;
+    color: #e4e3e3;
+}
+
+.headerBox3 {
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    float: right;
+    line-height: 60px;
+    color: white;
+}
+
+.main{
+    width: 1160px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main ul li{
+    margin-top: 20px;
+    background: #FFFFFF;
+    padding: 20px;
+}
+.title {
+    font-size: 16px;
+    border-bottom: 1px solid #e4e3e3;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.title:hover::before{
+    width: 80px;
+}
+.title::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #333333;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all .15s ease-in;
+}
+.title >h2{
+    font-size: 16px;
+    float: left;
+}
+.title >span{
+    float: right;
+}
+.first li:hover a{
+    background: #040404;
+    color: #FFFFFF;
+}
+.first ul li a{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: #040404;
+    padding: 5px 40px;
+    border: 1px solid #e4e3e3;
+    margin: 20px 0 0 20px;
+    transition: all .3s ease;
+}
+
+.footer{
+    width: 100%;
+    background: #333333;
+    padding: 30px 0;
+    border-top: 10px solid #00C1DE;
+    overflow: hidden;
+    margin-top:20px;
+}
+.footer .footermain{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footermain ul{
+    margin-right: 20px;
+}
+.footermain li{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 10px;
+}
+
+.footerRight span{
+    font-size: 16px;
+    color: #00c1de;
+}
+.footerRight p{
+    font-size: 14px;
+    color: #73777a;
+}
